@@ -1,0 +1,17 @@
+.active span {
+    border-bottom: 3px solid white;
+    padding-bottom: 17px;
+    font-weight: bold;
+}
+
+.tr2row {
+    border-bottom: 3px solid #f00;
+}
+
+.navbar-material .nav-wrapper .brand-logo img {
+    height: 64px;
+}
+
+#tagName:hover {
+    cursor: pointer;
+}

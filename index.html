@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#37003D">
+    <meta name="description" content="LigaInggrisBy-Keva Damar Galih"/>
+    <meta name="author" content="keva damar galih">
+    <link rel="apple-touch-icon" href="/assets/PL-Lion-512x512.png">
+    <link rel="icon" href="/assets/PL-Lion-512x512.png">
+    <link rel="manifest" href="registPushNotif.json">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Premier League</title>
+</head>
+<body>
+        <nav style="background-color: #37003D;" role="navigation">
+            <div class="nav-wrapper container">
+                <span id="logo-container" class="brand-logo hide-on-med-and-down"><i class="material-icons">favorite</i>Premier League</span>
+                <a href="#" class="sidenav-trigger" data-target="nav-mobile">☰</a>
+
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
+            </div>
+        </nav>
+
+    <div id="body-content"></div>
+    <footer class="page-footer" style="position: fixed;bottom:0;width:100%;background: #37003D;z-index: 99;" height="200">
+        <div class="center-align container" style="padding-bottom: 10px;">
+        © 2020 <span id="tagName">Keva</span>
+        </div>
+      </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById("tagName").addEventListener('click',()=>{
+                window.open("https://github.com/kevadamar",'_blank')
+            })
+        })
+    </script>
+    <script src="/js/main.js"></script>
+    <script src="/js/ServiceWorkers.js"></script>
+    <script src="/js/plugins/materialize.min.js"></script>
+    <script src="/js/services/apiServices.js"></script>
+    <script src="/js/helper/helper.js"></script>
+    <script src="/js/plugins/idb.js"></script>
+    <script src="/js/entities/DB.js"></script>
+
+</body>
+</html>

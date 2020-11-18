@@ -1,0 +1,23 @@
+{
+    "name": "Submission 2 - AppsBola",
+    "short_name": "Sepak Bola",
+    "description": "Aplikasi Tentang Seputar Sepak Bola Liga Inggris",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#37003D",
+    "theme_color": "#37003D",
+    "icons": [
+        {
+            "src": "/assets/PL-Lion-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "/assets/maskable_icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
